@@ -1,0 +1,57 @@
+initial array
+Author: Irvine Welsh, title: Trainspotting, price: 245, qt: 5
+Author: Chuck Palahniuk, title: Fight Club, price: 310, qt: 15
+Author: Anthony Burgess, title: A Clockwork Orange, price: 189, qt: 12
+Author: Gena Gorin, title: What are you doing in my fridge?, price: 500, qt: 4
+readed array
+Author: Irvine Welsh, title: Trainspotting, price: 245, qt: 5
+Author: Chuck Palahniuk, title: Fight Club, price: 310, qt: 15
+Author: Anthony Burgess, title: A Clockwork Orange, price: 189, qt: 12
+Author: Gena Gorin, title: What are you doing in my fridge?, price: 500, qt: 4
+
+Сортировка по названию:
+Author: Anthony Burgess, title: A Clockwork Orange, price: 189, qt: 11
+Author: Chuck Palahniuk, title: Fight Club, price: 310, qt: 9
+Author: Irvine Welsh, title: Trainspotting, price: 245, qt: 13
+Author: Gena Gorin, title: What are you doing in my fridge?, price: 500, qt: 1
+
+Сортировка по цене:
+Author: Anthony Burgess, title: A Clockwork Orange, price: 189, qt: 11
+Author: Irvine Welsh, title: Trainspotting, price: 245, qt: 13
+Author: Chuck Palahniuk, title: Fight Club, price: 310, qt: 9
+Author: Gena Gorin, title: What are you doing in my fridge?, price: 500, qt: 1
+
+Сортировка по количеству:
+Author: Gena Gorin, title: What are you doing in my fridge?, price: 500, qt: 1
+Author: Chuck Palahniuk, title: Fight Club, price: 310, qt: 9
+Author: Anthony Burgess, title: A Clockwork Orange, price: 189, qt: 11
+Author: Irvine Welsh, title: Trainspotting, price: 245, qt: 13
+
+Сортировка по цене:
+[Заказ] Список книг: Irvine Welsh - Trainspotting. Irvine Welsh - Trainspotting. 
+Статус: canceled. Цена: 490
+[Заказ] Список книг: Irvine Welsh - Trainspotting. Chuck Palahniuk - Fight Club. 
+Статус: completed. Цена: 555
+[Заказ] Список книг: Irvine Welsh - Trainspotting. Gena Gorin - What are you doing in my fridge?. Gena Gorin - What are you doing in my fridge?. Gena Gorin - What are you doing in my fridge?. Gena Gorin - What are you doing in my fridge?. Anthony Burgess - A Clockwork Orange. 
+Статус: completed. Цена: 2434
+
+Сортировка по статусу:
+[Заказ] Список книг: Irvine Welsh - Trainspotting. Irvine Welsh - Trainspotting. 
+Статус: canceled. Цена: 490
+[Заказ] Список книг: Irvine Welsh - Trainspotting. Gena Gorin - What are you doing in my fridge?. Gena Gorin - What are you doing in my fridge?. Gena Gorin - What are you doing in my fridge?. Gena Gorin - What are you doing in my fridge?. Anthony Burgess - A Clockwork Orange. 
+Статус: completed. Цена: 2434
+[Заказ] Список книг: Irvine Welsh - Trainspotting. Chuck Palahniuk - Fight Club. 
+Статус: completed. Цена: 555
+
+Сумма заработанных средств: 2989
+Количество выполненых заказов: 2
+
+Сортировка по количеству:
+[Запрос] Книга: Gena Gorin - What are you doing in my fridge?. Количество: 0
+[Запрос] Книга: Chuck Palahniuk - Fight Club. Количество: 1
+[Запрос] Книга: Nobody - Nothing. Количество: 2
+
+Сортировка по названию книги:
+[Запрос] Книга: Gena Gorin - What are you doing in my fridge?. Количество: 0
+[Запрос] Книга: Chuck Palahniuk - Fight Club. Количество: 1
+[Запрос] Книга: Nobody - Nothing. Количество: 2

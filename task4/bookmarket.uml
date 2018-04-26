@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.bookmarket</OriginalElement>
+  <nodes>
+    <node x="1057.4817708333335" y="1149.5">com.bookmarket.services.BookSort</node>
+    <node x="884.1223958333333" y="796.0">com.bookmarket.stores.BookList</node>
+    <node x="480.10416666666674" y="808.0">com.bookmarket.stores.OrderList</node>
+    <node x="1033.875" y="0.0">com.bookmarket.model.Book</node>
+    <node x="79.12239583333326" y="1125.5">com.bookmarket.util.OrderFileUtil</node>
+    <node x="1704.0234375000005" y="1125.5">com.bookmarket.util.RequestFileUtil</node>
+    <node x="727.8541666666667" y="1078.0">com.bookmarket.model.Market</node>
+    <node x="242.48177083333348" y="423.0">com.bookmarket.model.Order</node>
+    <node x="1983.0234375000002" y="1125.5">com.bookmarket.util.BookFileUtil</node>
+    <node x="1077.854166666667" y="1524.0">com.bookmarket.Main</node>
+    <node x="20.0" y="84.5">com.bookmarket.model.Client</node>
+    <node x="1343.4817708333335" y="1161.5">com.bookmarket.services.RequestSort</node>
+    <node x="1569.0807291666663" y="483.0">com.bookmarket.model.Request</node>
+    <node x="1144.4140624999998" y="820.0">com.bookmarket.stores.RequestList</node>
+    <node x="344.12239583333326" y="1137.5">com.bookmarket.services.OrderSort</node>
+    <node x="1598.3984375000005" y="808.5">com.bookmarket.util.FileUtil</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.bookmarket.model.Order" target="com.bookmarket.model.Client">
+      <point x="-83.25" y="-136.5" />
+      <point x="270.2317708333335" y="323.0" />
+      <point x="164.0" y="323.0" />
+      <point x="48.0" y="52.0" />
+    </edge>
+    <edge source="com.bookmarket.util.RequestFileUtil" target="com.bookmarket.model.Book">
+      <point x="85.5" y="-100.5" />
+      <point x="1903.5234375000005" y="1048.0" />
+      <point x="1839.9694010416667" y="1048.0" />
+      <point x="1839.9694010416667" y="373.0" />
+      <point x="1283.875" y="373.0" />
+      <point x="80.0" y="136.5" />
+    </edge>
+    <edge source="com.bookmarket.model.Market" target="com.bookmarket.stores.BookList">
+      <point x="49.16666666666674" y="-148.0" />
+      <point x="895.0208333333335" y="1008.0" />
+      <point x="1003.7057291666665" y="1008.0" />
+      <point x="17.083333333333258" y="76.0" />
+    </edge>
+    <edge source="com.bookmarket.stores.RequestList" target="com.bookmarket.model.Book">
+      <point x="-74.66666666666674" y="-52.0" />
+      <point x="1181.747395833333" y="736.0" />
+      <point x="1088.6360677083335" y="736.0" />
+      <point x="1088.6360677083335" y="403.0" />
+      <point x="1203.875" y="403.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="com.bookmarket.model.Market" target="com.bookmarket.model.Request">
+      <point x="-9.833333333333258" y="-148.0" />
+      <point x="836.0208333333335" y="988.0" />
+      <point x="817.4140624999998" y="988.0" />
+      <point x="817.4140624999998" y="746.0" />
+      <point x="1596.5807291666663" y="746.0" />
+      <point x="-55.0" y="76.5" />
+    </edge>
+    <edge source="com.bookmarket.model.Order" target="com.bookmarket.model.Book">
+      <point x="83.25" y="-136.5" />
+      <point x="436.7317708333335" y="363.0" />
+      <point x="1123.875" y="363.0" />
+      <point x="-80.0" y="136.5" />
+    </edge>
+    <edge source="com.bookmarket.util.OrderFileUtil" target="com.bookmarket.model.Client">
+      <point x="-89.16666666666663" y="-100.5" />
+      <point x="96.95572916666663" y="1038.0" />
+      <point x="132.0" y="1038.0" />
+      <point x="16.0" y="52.0" />
+    </edge>
+    <edge source="com.bookmarket.util.RequestFileUtil" target="com.bookmarket.util.RequestFileUtil">
+      <point x="0.0" y="100.5" />
+      <point x="1818.0234375000005" y="1346.5" />
+      <point x="1684.0234375000005" y="1346.5" />
+      <point x="1684.0234375000005" y="1226.0" />
+      <point x="-114.0" y="-0.0" />
+    </edge>
+    <edge source="com.bookmarket.Main" target="com.bookmarket.services.OrderSort">
+      <point x="-45.0" y="-27.5" />
+      <point x="1122.854166666667" y="1464.0" />
+      <point x="502.62239583333326" y="1464.0" />
+      <point x="0.0" y="88.5" />
+    </edge>
+    <edge source="com.bookmarket.services.OrderSort" target="com.bookmarket.model.Order">
+      <point x="-105.66666666666674" y="-88.5" />
+      <point x="396.9557291666665" y="1048.0" />
+      <point x="387.51106770833337" y="1048.0" />
+      <point x="387.51106770833337" y="776.0" />
+      <point x="378.1484375000002" y="776.0" />
+      <point x="24.666666666666742" y="136.5" />
+    </edge>
+    <edge source="com.bookmarket.model.Market" target="com.bookmarket.model.Order">
+      <point x="-49.16666666666674" y="-148.0" />
+      <point x="796.6875" y="1008.0" />
+      <point x="744.8958333333335" y="1008.0" />
+      <point x="744.8958333333335" y="756.0" />
+      <point x="452.1484375000001" y="756.0" />
+      <point x="98.66666666666663" y="136.5" />
+    </edge>
+    <edge source="com.bookmarket.model.Request" target="com.bookmarket.model.Book">
+      <point x="41.25" y="-76.5" />
+      <point x="1692.8307291666663" y="383.0" />
+      <point x="1263.875" y="383.0" />
+      <point x="60.0" y="136.5" />
+    </edge>
+    <edge source="com.bookmarket.services.BookSort" target="com.bookmarket.stores.BookList">
+      <point x="2.2737367544323206E-13" y="-76.5" />
+      <point x="1180.481770833334" y="998.0" />
+      <point x="1072.0390625" y="998.0" />
+      <point x="85.41666666666674" y="76.0" />
+    </edge>
+    <edge source="com.bookmarket.model.Client" target="com.bookmarket.model.Client">
+      <point x="-80.0" y="52.0" />
+      <point x="36.0" y="208.5" />
+      <point x="0.0" y="208.5" />
+      <point x="0.0" y="136.5" />
+      <point x="-96.0" y="-0.0" />
+    </edge>
+    <edge source="com.bookmarket.model.Market" target="com.bookmarket.stores.RequestList">
+      <point x="88.5" y="-148.0" />
+      <point x="934.3541666666667" y="1028.0" />
+      <point x="1237.747395833333" y="1028.0" />
+      <point x="-18.666666666666742" y="52.0" />
+    </edge>
+    <edge source="com.bookmarket.Main" target="com.bookmarket.services.BookSort">
+      <point x="-5.0" y="-27.5" />
+      <point x="1162.854166666667" y="1414.0" />
+      <point x="1180.4817708333335" y="1414.0" />
+      <point x="0.0" y="76.5" />
+    </edge>
+    <edge source="com.bookmarket.Main" target="com.bookmarket.util.BookFileUtil">
+      <point x="65.0" y="-27.5" />
+      <point x="1232.854166666667" y="1484.0" />
+      <point x="2140.5234375" y="1484.0" />
+      <point x="52.5" y="100.5" />
+    </edge>
+    <edge source="com.bookmarket.stores.RequestList" target="com.bookmarket.stores.RequestList">
+      <point x="-93.33333333333334" y="52.0" />
+      <point x="1163.0807291666665" y="944.0" />
+      <point x="1124.4140624999998" y="944.0" />
+      <point x="1124.4140624999998" y="872.0" />
+      <point x="-112.0" y="-0.0" />
+    </edge>
+    <edge source="com.bookmarket.model.Market" target="com.bookmarket.model.Book">
+      <point x="-29.5" y="-148.0" />
+      <point x="816.3541666666667" y="998.0" />
+      <point x="761.8125000000002" y="998.0" />
+      <point x="761.8125000000002" y="373.0" />
+      <point x="1143.875" y="373.0" />
+      <point x="-60.0" y="136.5" />
+    </edge>
+    <edge source="com.bookmarket.util.OrderFileUtil" target="com.bookmarket.model.Book">
+      <point x="-53.5" y="-100.5" />
+      <point x="132.62239583333326" y="1048.0" />
+      <point x="180.009765625" y="1048.0" />
+      <point x="180.009765625" y="333.0" />
+      <point x="1063.875" y="333.0" />
+      <point x="-140.0" y="136.5" />
+    </edge>
+    <edge source="com.bookmarket.services.RequestSort" target="com.bookmarket.stores.RequestList">
+      <point x="-86.66666666666674" y="-64.5" />
+      <point x="1386.815104166667" y="1038.0" />
+      <point x="1312.4140624999998" y="1038.0" />
+      <point x="56.0" y="52.0" />
+    </edge>
+    <edge source="com.bookmarket.services.RequestSort" target="com.bookmarket.services.RequestSort">
+      <point x="-86.66666666666669" y="64.5" />
+      <point x="1386.815104166667" y="1310.5" />
+      <point x="1323.4817708333335" y="1310.5" />
+      <point x="1323.4817708333335" y="1226.0" />
+      <point x="-130.0" y="-0.0" />
+    </edge>
+    <edge source="com.bookmarket.model.Request" target="com.bookmarket.model.Request">
+      <point x="-73.33333333333331" y="76.5" />
+      <point x="1578.247395833333" y="656.0" />
+      <point x="1549.0807291666663" y="656.0" />
+      <point x="1549.0807291666663" y="559.5" />
+      <point x="-82.5" y="-0.0" />
+    </edge>
+    <edge source="com.bookmarket.util.BookFileUtil" target="com.bookmarket.util.BookFileUtil">
+      <point x="-52.5" y="100.5" />
+      <point x="2035.5234375000002" y="1346.5" />
+      <point x="1963.0234375000002" y="1346.5" />
+      <point x="1963.0234375000002" y="1226.0" />
+      <point x="-105.0" y="-0.0" />
+    </edge>
+    <edge source="com.bookmarket.model.Order" target="com.bookmarket.model.Order">
+      <point x="-98.66666666666663" y="136.5" />
+      <point x="254.81510416666686" y="716.0" />
+      <point x="222.48177083333348" y="716.0" />
+      <point x="222.48177083333348" y="559.5" />
+      <point x="-111.0" y="-0.0" />
+    </edge>
+    <edge source="com.bookmarket.services.RequestSort" target="com.bookmarket.model.Request">
+      <point x="86.66666666666674" y="-64.5" />
+      <point x="1560.1484375000005" y="1048.0" />
+      <point x="1587.8984375000005" y="1048.0" />
+      <point x="1587.8984375000005" y="776.0" />
+      <point x="1651.5807291666663" y="776.0" />
+      <point x="0.0" y="76.5" />
+    </edge>
+    <edge source="com.bookmarket.Main" target="com.bookmarket.model.Book">
+      <point x="85.0" y="-27.5" />
+      <point x="1252.854166666667" y="1504.0" />
+      <point x="2213.5234375" y="1504.0" />
+      <point x="2213.5234375" y="333.0" />
+      <point x="1363.875" y="333.0" />
+      <point x="160.0" y="136.5" />
+    </edge>
+    <edge source="com.bookmarket.stores.OrderList" target="com.bookmarket.stores.OrderList">
+      <point x="-82.08333333333337" y="64.0" />
+      <point x="496.52083333333337" y="956.0" />
+      <point x="460.10416666666674" y="956.0" />
+      <point x="460.10416666666674" y="872.0" />
+      <point x="-98.5" y="-0.0" />
+    </edge>
+    <edge source="com.bookmarket.util.OrderFileUtil" target="com.bookmarket.util.FileUtil">
+      <point x="89.16666666666663" y="-100.5" />
+      <point x="275.2890624999999" y="1058.0" />
+      <point x="1621.6484375000005" y="1058.0" />
+      <point x="-69.75" y="63.5" />
+    </edge>
+    <edge source="com.bookmarket.stores.BookList" target="com.bookmarket.model.Book">
+      <point x="51.25" y="-76.0" />
+      <point x="1037.8723958333333" y="736.0" />
+      <point x="973.0944010416667" y="736.0" />
+      <point x="973.0944010416667" y="393.0" />
+      <point x="1183.875" y="393.0" />
+      <point x="-20.0" y="136.5" />
+    </edge>
+    <edge source="com.bookmarket.util.OrderFileUtil" target="com.bookmarket.model.Order">
+      <point x="53.5" y="-100.5" />
+      <point x="239.62239583333326" y="1058.0" />
+      <point x="251.84309895833337" y="1058.0" />
+      <point x="251.84309895833337" y="756.0" />
+      <point x="304.1484375000002" y="756.0" />
+      <point x="-49.33333333333326" y="136.5" />
+    </edge>
+    <edge source="com.bookmarket.util.BookFileUtil" target="com.bookmarket.util.FileUtil">
+      <point x="-70.0" y="-100.5" />
+      <point x="2018.0234375000002" y="1038.0" />
+      <point x="1761.1484375000005" y="1038.0" />
+      <point x="69.75" y="63.5" />
+    </edge>
+    <edge source="com.bookmarket.stores.RequestList" target="com.bookmarket.model.Request">
+      <point x="74.66666666666674" y="-52.0" />
+      <point x="1331.0807291666665" y="766.0" />
+      <point x="1633.247395833333" y="766.0" />
+      <point x="-18.333333333333258" y="76.5" />
+    </edge>
+    <edge source="com.bookmarket.Main" target="com.bookmarket.model.Request">
+      <point x="55.0" y="-27.5" />
+      <point x="1222.854166666667" y="1474.0" />
+      <point x="1952.5234375000005" y="1474.0" />
+      <point x="1952.5234375000005" y="746.0" />
+      <point x="1724.9140624999995" y="746.0" />
+      <point x="73.33333333333326" y="76.5" />
+    </edge>
+    <edge source="com.bookmarket.services.BookSort" target="com.bookmarket.services.BookSort">
+      <point x="-82.0" y="76.5" />
+      <point x="1098.4817708333335" y="1322.5" />
+      <point x="1037.4817708333335" y="1322.5" />
+      <point x="1037.4817708333335" y="1226.0" />
+      <point x="-123.0" y="-0.0" />
+    </edge>
+    <edge source="com.bookmarket.services.BookSort" target="com.bookmarket.model.Book">
+      <point x="82.00000000000023" y="-76.5" />
+      <point x="1262.481770833334" y="1048.0" />
+      <point x="1388.9557291666665" y="1048.0" />
+      <point x="1388.9557291666665" y="403.0" />
+      <point x="1223.875" y="403.0" />
+      <point x="20.0" y="136.5" />
+    </edge>
+    <edge source="com.bookmarket.stores.OrderList" target="com.bookmarket.model.Order">
+      <point x="49.25" y="-64.0" />
+      <point x="627.8541666666667" y="766.0" />
+      <point x="427.4817708333335" y="766.0" />
+      <point x="74.0" y="136.5" />
+    </edge>
+    <edge source="com.bookmarket.util.RequestFileUtil" target="com.bookmarket.model.Request">
+      <point x="28.5" y="-100.5" />
+      <point x="1846.5234375000005" y="1058.0" />
+      <point x="1828.9694010416667" y="1058.0" />
+      <point x="1828.9694010416667" y="766.0" />
+      <point x="1688.247395833333" y="766.0" />
+      <point x="36.66666666666674" y="76.5" />
+    </edge>
+    <edge source="com.bookmarket.util.OrderFileUtil" target="com.bookmarket.util.OrderFileUtil">
+      <point x="0.0" y="100.5" />
+      <point x="186.12239583333326" y="1346.5" />
+      <point x="59.12239583333326" y="1346.5" />
+      <point x="59.12239583333326" y="1226.0" />
+      <point x="-107.0" y="-0.0" />
+    </edge>
+    <edge source="com.bookmarket.services.OrderSort" target="com.bookmarket.stores.OrderList">
+      <point x="105.66666666666674" y="-88.5" />
+      <point x="608.2890625" y="1048.0" />
+      <point x="562.1875" y="1048.0" />
+      <point x="-16.416666666666742" y="64.0" />
+    </edge>
+    <edge source="com.bookmarket.Main" target="com.bookmarket.util.FileUtil">
+      <point x="35.0" y="-27.5" />
+      <point x="1202.854166666667" y="1454.0" />
+      <point x="1668.1484375000005" y="1454.0" />
+      <point x="-23.25" y="63.5" />
+    </edge>
+    <edge source="com.bookmarket.stores.BookList" target="com.bookmarket.stores.BookList">
+      <point x="-85.41666666666666" y="76.0" />
+      <point x="901.2057291666665" y="968.0" />
+      <point x="864.1223958333333" y="968.0" />
+      <point x="864.1223958333333" y="872.0" />
+      <point x="-102.5" y="-0.0" />
+    </edge>
+    <edge source="com.bookmarket.Main" target="com.bookmarket.model.Market">
+      <point x="-15.0" y="-27.5" />
+      <point x="1152.854166666667" y="1434.0" />
+      <point x="924.5208333333335" y="1434.0" />
+      <point x="78.66666666666674" y="148.0" />
+    </edge>
+    <edge source="com.bookmarket.model.Book" target="com.bookmarket.model.Book">
+      <point x="-160.0" y="136.5" />
+      <point x="1043.875" y="293.0" />
+      <point x="1013.875" y="293.0" />
+      <point x="1013.875" y="136.5" />
+      <point x="-170.0" y="-0.0" />
+    </edge>
+    <edge source="com.bookmarket.Main" target="com.bookmarket.services.RequestSort">
+      <point x="15.0" y="-27.5" />
+      <point x="1182.854166666667" y="1434.0" />
+      <point x="1473.4817708333335" y="1434.0" />
+      <point x="0.0" y="64.5" />
+    </edge>
+    <edge source="com.bookmarket.Main" target="com.bookmarket.model.Order">
+      <point x="-55.0" y="-27.5" />
+      <point x="1112.854166666667" y="1474.0" />
+      <point x="313.62239583333326" y="1474.0" />
+      <point x="313.62239583333326" y="776.0" />
+      <point x="353.4817708333335" y="776.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+    <edge source="com.bookmarket.services.OrderSort" target="com.bookmarket.services.OrderSort">
+      <point x="-105.66666666666663" y="88.5" />
+      <point x="396.95572916666663" y="1334.5" />
+      <point x="324.12239583333326" y="1334.5" />
+      <point x="324.12239583333326" y="1226.0" />
+      <point x="-158.5" y="-0.0" />
+    </edge>
+    <edge source="com.bookmarket.model.Market" target="com.bookmarket.stores.OrderList">
+      <point x="-108.16666666666674" y="-148.0" />
+      <point x="737.6875" y="1038.0" />
+      <point x="595.0208333333335" y="1038.0" />
+      <point x="16.416666666666742" y="64.0" />
+    </edge>
+    <edge source="com.bookmarket.util.RequestFileUtil" target="com.bookmarket.util.FileUtil">
+      <point x="-85.5" y="-100.5" />
+      <point x="1732.5234375000005" y="1058.0" />
+      <point x="1714.6484375000005" y="1058.0" />
+      <point x="23.25" y="63.5" />
+    </edge>
+    <edge source="com.bookmarket.model.Market" target="com.bookmarket.model.Market">
+      <point x="-78.66666666666669" y="148.0" />
+      <point x="767.1875000000001" y="1394.0" />
+      <point x="707.8541666666667" y="1394.0" />
+      <point x="707.8541666666667" y="1226.0" />
+      <point x="-118.0" y="-0.0" />
+    </edge>
+    <edge source="com.bookmarket.Main" target="com.bookmarket.model.Client">
+      <point x="-75.0" y="-27.5" />
+      <point x="1092.854166666667" y="1494.0" />
+      <point x="34.33333333333326" y="1494.0" />
+      <point x="34.33333333333326" y="403.0" />
+      <point x="100.0" y="403.0" />
+      <point x="-16.0" y="52.0" />
+    </edge>
+    <edge source="com.bookmarket.util.BookFileUtil" target="com.bookmarket.model.Book">
+      <point x="70.0" y="-100.5" />
+      <point x="2158.0234375" y="1058.0" />
+      <point x="2127.4694010416665" y="1058.0" />
+      <point x="2127.4694010416665" y="353.0" />
+      <point x="1323.875" y="353.0" />
+      <point x="120.0" y="136.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5222013758599124" x="1172.5" y="789.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

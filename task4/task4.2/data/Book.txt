@@ -1,0 +1,4 @@
+978-5-17-006740-2;Irvine Welsh;1993-11-30;Trainspotting;245;5;Long description
+978-5-17-084596-5;Chuck Palahniuk;1996-08-17;Fight Club;310;15;Long description
+978-5-17-080109-1;Anthony Burgess;1962-01-03;A Clockwork Orange;189;12;Long description
+978-5-17-0802512-6;Gena Gorin;2017-11-30;What are you doing in my fridge?;500;4;Are you hungry?
